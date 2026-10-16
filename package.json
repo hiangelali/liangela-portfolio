@@ -1,0 +1,7 @@
+{
+  "name": "liangela-portfolio",
+  "private": true,
+  "scripts": {
+    "build": "rm -rf public && cp -R site public"
+  }
+}
