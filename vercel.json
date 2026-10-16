@@ -1,6 +1,8 @@
 {
-  "buildCommand": "",
-  "outputDirectory": "site",
   "cleanUrls": true,
-  "trailingSlash": true
+  "trailingSlash": true,
+  "rewrites": [
+    { "source": "/", "destination": "/site/" },
+    { "source": "/:path*", "destination": "/site/:path*" }
+  ]
 }
