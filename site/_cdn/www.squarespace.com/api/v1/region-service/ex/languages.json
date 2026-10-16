@@ -1,0 +1,307 @@
+[ {
+  "languageTag" : "en-IE",
+  "websiteFormattingLaunch" : "FULLY_LOCALIZED",
+  "websiteLanguageLaunch" : "NONE",
+  "cmsLanguageLaunch" : "NONE",
+  "frontsiteLanguageLaunch" : "NONE"
+}, {
+  "languageTag" : "en-IN",
+  "websiteFormattingLaunch" : "FULLY_LOCALIZED",
+  "websiteLanguageLaunch" : "NONE",
+  "cmsLanguageLaunch" : "NONE",
+  "frontsiteLanguageLaunch" : "NONE"
+}, {
+  "languageTag" : "es-BO",
+  "websiteFormattingLaunch" : "FULLY_LOCALIZED",
+  "websiteLanguageLaunch" : "NONE",
+  "cmsLanguageLaunch" : "NONE",
+  "frontsiteLanguageLaunch" : "NONE"
+}, {
+  "languageTag" : "en-ZA",
+  "websiteFormattingLaunch" : "FULLY_LOCALIZED",
+  "websiteLanguageLaunch" : "NONE",
+  "cmsLanguageLaunch" : "NONE",
+  "frontsiteLanguageLaunch" : "NONE"
+}, {
+  "languageTag" : "no-NO",
+  "websiteFormattingLaunch" : "FULLY_LOCALIZED",
+  "websiteLanguageLaunch" : "FULLY_LOCALIZED",
+  "cmsLanguageLaunch" : "NONE",
+  "frontsiteLanguageLaunch" : "NONE"
+}, {
+  "languageTag" : "nl-NL",
+  "websiteFormattingLaunch" : "FULLY_LOCALIZED",
+  "websiteLanguageLaunch" : "FULLY_LOCALIZED",
+  "cmsLanguageLaunch" : "ALPHA",
+  "frontsiteLanguageLaunch" : "ALPHA"
+}, {
+  "languageTag" : "en-AU",
+  "websiteFormattingLaunch" : "FULLY_LOCALIZED",
+  "websiteLanguageLaunch" : "NONE",
+  "cmsLanguageLaunch" : "NONE",
+  "frontsiteLanguageLaunch" : "NONE"
+}, {
+  "languageTag" : "es-SV",
+  "websiteFormattingLaunch" : "FULLY_LOCALIZED",
+  "websiteLanguageLaunch" : "NONE",
+  "cmsLanguageLaunch" : "NONE",
+  "frontsiteLanguageLaunch" : "NONE"
+}, {
+  "languageTag" : "es-CR",
+  "websiteFormattingLaunch" : "FULLY_LOCALIZED",
+  "websiteLanguageLaunch" : "NONE",
+  "cmsLanguageLaunch" : "NONE",
+  "frontsiteLanguageLaunch" : "NONE"
+}, {
+  "languageTag" : "es-CL",
+  "websiteFormattingLaunch" : "FULLY_LOCALIZED",
+  "websiteLanguageLaunch" : "NONE",
+  "cmsLanguageLaunch" : "NONE",
+  "frontsiteLanguageLaunch" : "NONE"
+}, {
+  "languageTag" : "fr-CA",
+  "websiteFormattingLaunch" : "FULLY_LOCALIZED",
+  "websiteLanguageLaunch" : "NONE",
+  "cmsLanguageLaunch" : "NONE",
+  "frontsiteLanguageLaunch" : "NONE"
+}, {
+  "languageTag" : "es-CO",
+  "websiteFormattingLaunch" : "FULLY_LOCALIZED",
+  "websiteLanguageLaunch" : "NONE",
+  "cmsLanguageLaunch" : "NONE",
+  "frontsiteLanguageLaunch" : "NONE"
+}, {
+  "languageTag" : "pt-PT",
+  "websiteFormattingLaunch" : "FULLY_LOCALIZED",
+  "websiteLanguageLaunch" : "NONE",
+  "cmsLanguageLaunch" : "NONE",
+  "frontsiteLanguageLaunch" : "NONE"
+}, {
+  "languageTag" : "fr-BE",
+  "websiteFormattingLaunch" : "FULLY_LOCALIZED",
+  "websiteLanguageLaunch" : "NONE",
+  "cmsLanguageLaunch" : "NONE",
+  "frontsiteLanguageLaunch" : "NONE"
+}, {
+  "languageTag" : "es-HN",
+  "websiteFormattingLaunch" : "FULLY_LOCALIZED",
+  "websiteLanguageLaunch" : "NONE",
+  "cmsLanguageLaunch" : "NONE",
+  "frontsiteLanguageLaunch" : "NONE"
+}, {
+  "languageTag" : "es-PR",
+  "websiteFormattingLaunch" : "FULLY_LOCALIZED",
+  "websiteLanguageLaunch" : "NONE",
+  "cmsLanguageLaunch" : "NONE",
+  "frontsiteLanguageLaunch" : "NONE"
+}, {
+  "languageTag" : "es-PY",
+  "websiteFormattingLaunch" : "FULLY_LOCALIZED",
+  "websiteLanguageLaunch" : "NONE",
+  "cmsLanguageLaunch" : "NONE",
+  "frontsiteLanguageLaunch" : "NONE"
+}, {
+  "languageTag" : "de-AT",
+  "websiteFormattingLaunch" : "FULLY_LOCALIZED",
+  "websiteLanguageLaunch" : "NONE",
+  "cmsLanguageLaunch" : "NONE",
+  "frontsiteLanguageLaunch" : "NONE"
+}, {
+  "languageTag" : "ko-KR",
+  "websiteFormattingLaunch" : "BETA",
+  "websiteLanguageLaunch" : "BETA",
+  "cmsLanguageLaunch" : "BETA",
+  "frontsiteLanguageLaunch" : "BETA"
+}, {
+  "languageTag" : "es-AR",
+  "websiteFormattingLaunch" : "FULLY_LOCALIZED",
+  "websiteLanguageLaunch" : "NONE",
+  "cmsLanguageLaunch" : "NONE",
+  "frontsiteLanguageLaunch" : "NONE"
+}, {
+  "languageTag" : "sv-SE",
+  "websiteFormattingLaunch" : "FULLY_LOCALIZED",
+  "websiteLanguageLaunch" : "FULLY_LOCALIZED",
+  "cmsLanguageLaunch" : "NONE",
+  "frontsiteLanguageLaunch" : "NONE"
+}, {
+  "languageTag" : "da-DK",
+  "websiteFormattingLaunch" : "FULLY_LOCALIZED",
+  "websiteLanguageLaunch" : "FULLY_LOCALIZED",
+  "cmsLanguageLaunch" : "NONE",
+  "frontsiteLanguageLaunch" : "NONE"
+}, {
+  "languageTag" : "es-419",
+  "websiteFormattingLaunch" : "NONE",
+  "websiteLanguageLaunch" : "FULLY_LOCALIZED",
+  "cmsLanguageLaunch" : "FULLY_LOCALIZED",
+  "frontsiteLanguageLaunch" : "FULLY_LOCALIZED"
+}, {
+  "languageTag" : "en-US",
+  "websiteFormattingLaunch" : "FULLY_LOCALIZED",
+  "websiteLanguageLaunch" : "FULLY_LOCALIZED",
+  "cmsLanguageLaunch" : "FULLY_LOCALIZED",
+  "frontsiteLanguageLaunch" : "FULLY_LOCALIZED"
+}, {
+  "languageTag" : "nl-BE",
+  "websiteFormattingLaunch" : "FULLY_LOCALIZED",
+  "websiteLanguageLaunch" : "NONE",
+  "cmsLanguageLaunch" : "NONE",
+  "frontsiteLanguageLaunch" : "NONE"
+}, {
+  "languageTag" : "da-GL",
+  "websiteFormattingLaunch" : "FULLY_LOCALIZED",
+  "websiteLanguageLaunch" : "NONE",
+  "cmsLanguageLaunch" : "NONE",
+  "frontsiteLanguageLaunch" : "NONE"
+}, {
+  "languageTag" : "de-CH",
+  "websiteFormattingLaunch" : "FULLY_LOCALIZED",
+  "websiteLanguageLaunch" : "NONE",
+  "cmsLanguageLaunch" : "NONE",
+  "frontsiteLanguageLaunch" : "NONE"
+}, {
+  "languageTag" : "ja-JP",
+  "websiteFormattingLaunch" : "FULLY_LOCALIZED",
+  "websiteLanguageLaunch" : "FULLY_LOCALIZED",
+  "cmsLanguageLaunch" : "FULLY_LOCALIZED",
+  "frontsiteLanguageLaunch" : "FULLY_LOCALIZED"
+}, {
+  "languageTag" : "es-GT",
+  "websiteFormattingLaunch" : "FULLY_LOCALIZED",
+  "websiteLanguageLaunch" : "NONE",
+  "cmsLanguageLaunch" : "NONE",
+  "frontsiteLanguageLaunch" : "NONE"
+}, {
+  "languageTag" : "es-PE",
+  "websiteFormattingLaunch" : "FULLY_LOCALIZED",
+  "websiteLanguageLaunch" : "NONE",
+  "cmsLanguageLaunch" : "NONE",
+  "frontsiteLanguageLaunch" : "NONE"
+}, {
+  "languageTag" : "en-NZ",
+  "websiteFormattingLaunch" : "FULLY_LOCALIZED",
+  "websiteLanguageLaunch" : "NONE",
+  "cmsLanguageLaunch" : "NONE",
+  "frontsiteLanguageLaunch" : "NONE"
+}, {
+  "languageTag" : "es-PA",
+  "websiteFormattingLaunch" : "FULLY_LOCALIZED",
+  "websiteLanguageLaunch" : "NONE",
+  "cmsLanguageLaunch" : "NONE",
+  "frontsiteLanguageLaunch" : "NONE"
+}, {
+  "languageTag" : "it-CH",
+  "websiteFormattingLaunch" : "FULLY_LOCALIZED",
+  "websiteLanguageLaunch" : "NONE",
+  "cmsLanguageLaunch" : "NONE",
+  "frontsiteLanguageLaunch" : "NONE"
+}, {
+  "languageTag" : "tr-TR",
+  "websiteFormattingLaunch" : "BETA",
+  "websiteLanguageLaunch" : "BETA",
+  "cmsLanguageLaunch" : "BETA",
+  "frontsiteLanguageLaunch" : "NONE"
+}, {
+  "languageTag" : "fr-FR",
+  "websiteFormattingLaunch" : "FULLY_LOCALIZED",
+  "websiteLanguageLaunch" : "FULLY_LOCALIZED",
+  "cmsLanguageLaunch" : "FULLY_LOCALIZED",
+  "frontsiteLanguageLaunch" : "FULLY_LOCALIZED"
+}, {
+  "languageTag" : "en-GB",
+  "websiteFormattingLaunch" : "FULLY_LOCALIZED",
+  "websiteLanguageLaunch" : "NONE",
+  "cmsLanguageLaunch" : "NONE",
+  "frontsiteLanguageLaunch" : "NONE"
+}, {
+  "languageTag" : "fi-FI",
+  "websiteFormattingLaunch" : "FULLY_LOCALIZED",
+  "websiteLanguageLaunch" : "FULLY_LOCALIZED",
+  "cmsLanguageLaunch" : "NONE",
+  "frontsiteLanguageLaunch" : "NONE"
+}, {
+  "languageTag" : "en-CA",
+  "websiteFormattingLaunch" : "FULLY_LOCALIZED",
+  "websiteLanguageLaunch" : "NONE",
+  "cmsLanguageLaunch" : "NONE",
+  "frontsiteLanguageLaunch" : "NONE"
+}, {
+  "languageTag" : "es-DO",
+  "websiteFormattingLaunch" : "FULLY_LOCALIZED",
+  "websiteLanguageLaunch" : "NONE",
+  "cmsLanguageLaunch" : "NONE",
+  "frontsiteLanguageLaunch" : "NONE"
+}, {
+  "languageTag" : "fr-CH",
+  "websiteFormattingLaunch" : "FULLY_LOCALIZED",
+  "websiteLanguageLaunch" : "NONE",
+  "cmsLanguageLaunch" : "NONE",
+  "frontsiteLanguageLaunch" : "NONE"
+}, {
+  "languageTag" : "es-EC",
+  "websiteFormattingLaunch" : "FULLY_LOCALIZED",
+  "websiteLanguageLaunch" : "NONE",
+  "cmsLanguageLaunch" : "NONE",
+  "frontsiteLanguageLaunch" : "NONE"
+}, {
+  "languageTag" : "de-DE",
+  "websiteFormattingLaunch" : "FULLY_LOCALIZED",
+  "websiteLanguageLaunch" : "FULLY_LOCALIZED",
+  "cmsLanguageLaunch" : "FULLY_LOCALIZED",
+  "frontsiteLanguageLaunch" : "FULLY_LOCALIZED"
+}, {
+  "languageTag" : "pt-BR",
+  "websiteFormattingLaunch" : "FULLY_LOCALIZED",
+  "websiteLanguageLaunch" : "FULLY_LOCALIZED",
+  "cmsLanguageLaunch" : "FULLY_LOCALIZED",
+  "frontsiteLanguageLaunch" : "FULLY_LOCALIZED"
+}, {
+  "languageTag" : "es-UY",
+  "websiteFormattingLaunch" : "FULLY_LOCALIZED",
+  "websiteLanguageLaunch" : "NONE",
+  "cmsLanguageLaunch" : "NONE",
+  "frontsiteLanguageLaunch" : "NONE"
+}, {
+  "languageTag" : "es-ES",
+  "websiteFormattingLaunch" : "FULLY_LOCALIZED",
+  "websiteLanguageLaunch" : "NONE",
+  "cmsLanguageLaunch" : "NONE",
+  "frontsiteLanguageLaunch" : "NONE"
+}, {
+  "languageTag" : "es-VE",
+  "websiteFormattingLaunch" : "FULLY_LOCALIZED",
+  "websiteLanguageLaunch" : "NONE",
+  "cmsLanguageLaunch" : "NONE",
+  "frontsiteLanguageLaunch" : "NONE"
+}, {
+  "languageTag" : "es-MX",
+  "websiteFormattingLaunch" : "FULLY_LOCALIZED",
+  "websiteLanguageLaunch" : "NONE",
+  "cmsLanguageLaunch" : "NONE",
+  "frontsiteLanguageLaunch" : "NONE"
+}, {
+  "languageTag" : "it-IT",
+  "websiteFormattingLaunch" : "FULLY_LOCALIZED",
+  "websiteLanguageLaunch" : "FULLY_LOCALIZED",
+  "cmsLanguageLaunch" : "FULLY_LOCALIZED",
+  "frontsiteLanguageLaunch" : "FULLY_LOCALIZED"
+}, {
+  "languageTag" : "de-LU",
+  "websiteFormattingLaunch" : "FULLY_LOCALIZED",
+  "websiteLanguageLaunch" : "NONE",
+  "cmsLanguageLaunch" : "NONE",
+  "frontsiteLanguageLaunch" : "NONE"
+}, {
+  "languageTag" : "fr-LU",
+  "websiteFormattingLaunch" : "FULLY_LOCALIZED",
+  "websiteLanguageLaunch" : "NONE",
+  "cmsLanguageLaunch" : "NONE",
+  "frontsiteLanguageLaunch" : "NONE"
+}, {
+  "languageTag" : "es-NI",
+  "websiteFormattingLaunch" : "FULLY_LOCALIZED",
+  "websiteLanguageLaunch" : "NONE",
+  "cmsLanguageLaunch" : "NONE",
+  "frontsiteLanguageLaunch" : "NONE"
+} ]
