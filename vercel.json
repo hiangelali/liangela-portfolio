@@ -13,6 +13,26 @@
       "source": "/dropbox-esignature/",
       "destination": "/dropbox-sign/",
       "permanent": true
+    },
+    {
+      "source": "/airbnbcohosting",
+      "destination": "/airbnb-cohosting",
+      "permanent": true
+    },
+    {
+      "source": "/airbnbcohosting/",
+      "destination": "/airbnb-cohosting/",
+      "permanent": true
+    },
+    {
+      "source": "/clearerfees",
+      "destination": "/clearer-fees",
+      "permanent": true
+    },
+    {
+      "source": "/clearerfees/",
+      "destination": "/clearer-fees/",
+      "permanent": true
     }
   ]
 }
