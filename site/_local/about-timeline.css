@@ -11,9 +11,12 @@
 .local-about-intro {
   position: relative;
   width: 100%;
-  max-width: 72rem; /* match timeline width */
+  max-width: 72rem; /* keep full desktop measure */
   margin: 0 auto;
-  padding: 4.5rem 4vw 2.5rem;
+  /* Horizontal inset comes from content-wrapper (Angela / header gutter).
+     Extra side padding was keeping copy inset from the nav once the
+     block went fluid below 72rem. */
+  padding: 4.5rem 0 2.5rem;
   box-sizing: border-box;
   color: rgb(14, 10, 1);
 }
@@ -46,7 +49,7 @@
   width: 100%;
   max-width: 72rem;
   margin: 0 auto;
-  padding: 1.5rem 4vw 4rem;
+  padding: 1.5rem 0 4rem;
   box-sizing: border-box;
 }
 
@@ -84,7 +87,7 @@
 
 @media (max-width: 767px) {
   .local-job-list {
-    padding: 1.5rem 5vw 3rem;
+    padding: 1.5rem 0 3rem;
   }
 
   .local-job-row {

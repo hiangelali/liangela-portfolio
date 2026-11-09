@@ -1,0 +1,14 @@
+/*
+  Hold project intro (title / description / news) at its full expanded
+  content-width--narrow size instead of shrinking with the viewport.
+  It only gets narrower once the content-wrapper (≈ media width) drops
+  below that hold width, and on mobile as usual.
+*/
+@media (min-width: 768px) {
+  #page .page-section.content-width--narrow > .content-wrapper .content {
+    width: 662px !important;
+    max-width: 100% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+}
