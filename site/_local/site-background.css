@@ -1,0 +1,30 @@
+/*
+  Slightly lighter site cream (was ~#f2efe0 / 91.4% lightness).
+  Keep #page / .page-section unpainted so hover previews still show through.
+*/
+:root {
+  /* Original was ~hsla(50,40.91%,91.37%) / #f2efe0 — only a hair lighter */
+  --siteBackgroundColor: hsla(50, 40%, 92.4%, 1) !important;
+  --backgroundOverlayColor: hsla(50, 40%, 92.4%, 1) !important;
+}
+
+html,
+body,
+#siteWrapper,
+.header-announcement-bar-wrapper,
+.header-background {
+  background-color: var(--siteBackgroundColor) !important;
+  background-image: none !important;
+}
+
+.page-section .section-background,
+.page-section .section-border {
+  background-color: var(--siteBackgroundColor) !important;
+  background-image: none !important;
+}
+
+.header-menu-bg,
+.header-menu-bg.theme-bg--primary {
+  background-color: var(--siteBackgroundColor) !important;
+  background-image: none !important;
+}
