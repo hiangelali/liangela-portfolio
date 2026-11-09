@@ -1,0 +1,99 @@
+/**
+ * About page: intro copy + Todd Ham–style experience timeline.
+ */
+.local-about-timeline-section .content-wrapper {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: stretch !important;
+  width: 100% !important;
+}
+
+.local-about-intro {
+  position: relative;
+  width: 100%;
+  max-width: 72rem; /* match timeline width */
+  margin: 0 auto;
+  padding: 4.5rem 4vw 2.5rem;
+  box-sizing: border-box;
+  color: rgb(14, 10, 1);
+}
+
+.local-about-intro h2,
+.local-about-intro p {
+  margin: 0 0 1.1rem;
+  font-family: "Roboto Mono", ui-monospace, monospace;
+  font-weight: 400;
+  font-size: 0.784rem;
+  letter-spacing: 0.01em;
+  line-height: 1.6;
+  color: rgb(14, 10, 1);
+}
+
+.local-about-intro h2 {
+  margin-bottom: 1.25rem;
+}
+
+.local-about-intro p:last-child {
+  margin-bottom: 0;
+}
+
+.local-about-intro a {
+  color: inherit;
+}
+
+.local-job-list {
+  position: relative;
+  width: 100%;
+  max-width: 72rem;
+  margin: 0 auto;
+  padding: 1.5rem 4vw 4rem;
+  box-sizing: border-box;
+}
+
+.local-job-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: baseline;
+  gap: 1rem;
+  padding: 1.15rem 0;
+  border-bottom: 1px solid rgba(14, 10, 1, 0.14);
+  font-family: "Roboto Mono", ui-monospace, monospace;
+  font-size: 0.784rem; /* ~12.5px — matches project body copy */
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  line-height: 1.6;
+  text-transform: none;
+  color: rgb(14, 10, 1);
+}
+
+.local-job-row:first-child {
+  border-top: 1px solid rgba(28, 28, 28, 0.14);
+}
+
+.local-job-dates {
+  text-align: left;
+}
+
+.local-job-name {
+  text-align: left;
+}
+
+.local-job-role {
+  text-align: right;
+}
+
+@media (max-width: 767px) {
+  .local-job-list {
+    padding: 1.5rem 5vw 3rem;
+  }
+
+  .local-job-row {
+    grid-template-columns: 1fr;
+    gap: 0.2rem;
+    padding: 1rem 0;
+  }
+
+  .local-job-role {
+    text-align: left;
+  }
+}

@@ -136,10 +136,23 @@
       }
     }
 
+    var revealTimer = null;
+
     function setShowing(on) {
       document.body.classList.toggle('local-work-preview-showing', !!on);
       stage.classList.toggle('is-visible', !!on);
       if (!on) setActiveLink(null);
+    }
+
+    function fadeInIfActive(key) {
+      // Two frames so the browser registers opacity 0 before fading up
+      requestAnimationFrame(function () {
+        requestAnimationFrame(function () {
+          if (activeKey !== key) return;
+          document.body.classList.add('local-work-preview-showing');
+          stage.classList.add('is-visible');
+        });
+      });
     }
 
     function show(key) {
@@ -149,24 +162,46 @@
         clearTimeout(hideTimer);
         hideTimer = null;
       }
+      if (revealTimer) {
+        clearTimeout(revealTimer);
+        revealTimer = null;
+      }
       activeKey = key;
       setActiveLink(key);
+      document.body.classList.add('local-work-preview-showing');
+
       var nextSrc = resolveSrc(conf.src);
-      applyPlacement(img, conf);
-      if (img.getAttribute('src') !== nextSrc) {
-        img.onload = function () {
-          if (activeKey === key) setShowing(true);
-        };
-        img.src = nextSrc;
-        // If cached, onload may have already fired
-        if (img.complete) setShowing(true);
+      var switching = !!img.getAttribute('src') && img.getAttribute('src') !== nextSrc && stage.classList.contains('is-visible');
+
+      function reveal() {
+        if (activeKey !== key) return;
+        applyPlacement(img, conf);
+        if (img.getAttribute('src') !== nextSrc) {
+          stage.classList.remove('is-visible');
+          img.onload = function () {
+            if (activeKey === key) fadeInIfActive(key);
+          };
+          img.src = nextSrc;
+          if (img.complete) fadeInIfActive(key);
+        } else {
+          fadeInIfActive(key);
+        }
+      }
+
+      if (switching) {
+        stage.classList.remove('is-visible');
+        revealTimer = setTimeout(reveal, 180);
       } else {
-        setShowing(true);
+        reveal();
       }
     }
 
     function hide() {
       activeKey = null;
+      if (revealTimer) {
+        clearTimeout(revealTimer);
+        revealTimer = null;
+      }
       setShowing(false);
     }
 
