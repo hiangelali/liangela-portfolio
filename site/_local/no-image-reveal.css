@@ -1,0 +1,33 @@
+/* Disable Squarespace scroll-to-reveal on images across the portfolio */
+[data-animation-role="image"],
+[data-animation-role="image"].preFade,
+[data-animation-role="image"].preSlide,
+[data-animation-role="image"].fadeIn,
+[data-animation-role="image"].slideIn,
+[data-animation-role="image"].scaleIn,
+.fluid-image-animation-wrapper,
+.fluid-image-animation-wrapper.preFade,
+.fluid-image-animation-wrapper.preSlide,
+.sqs-image.preFade,
+.sqs-image.preSlide,
+.sqs-block-image .preFade,
+.sqs-block-image .preSlide,
+.sqs-gallery-container .preFade,
+.sqs-gallery-container .preSlide,
+.image-wrapper.preFade,
+.image-wrapper.preSlide,
+img.preFade,
+img.preSlide {
+  opacity: 1 !important;
+  transform: none !important;
+  transition: none !important;
+  animation: none !important;
+  clip-path: none !important;
+  visibility: visible !important;
+}
+
+/* Ensure imageFluid wrappers don't wait on animation state */
+.fluid-image-component-root.individual-animation-site-default,
+.fluid-image-component-root.combination-animation-site-default {
+  /* class hooks retained; visibility forced above */
+}

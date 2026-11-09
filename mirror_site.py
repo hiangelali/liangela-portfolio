@@ -39,6 +39,8 @@ SEED_PATHS = [
     "/new-facebook",
     "/one-days-wages",
     "/story-highlights",
+    "/ramp-policy-agents",
+    "/ramp-travel",
     "/locked-marketplace-internationalization",
     "/locked-new-facebook",
 ]
