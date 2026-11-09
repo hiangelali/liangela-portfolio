@@ -1,0 +1,77 @@
+/**
+ * Selected Work hover previews — gallery-style image behind page text.
+ */
+.local-work-preview {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.local-work-preview__img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 42vw;
+  max-width: 640px;
+  height: auto;
+  max-height: 70vh;
+  object-fit: contain;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 320ms ease;
+  will-change: opacity;
+}
+
+.local-work-preview.is-visible .local-work-preview__img {
+  opacity: 1;
+}
+
+/* Keep site content above the preview layer */
+body.local-work-preview-enabled #header,
+body.local-work-preview-enabled header#header,
+body.local-work-preview-enabled .header,
+body.local-work-preview-enabled #page,
+body.local-work-preview-enabled main {
+  position: relative;
+  z-index: 1;
+}
+
+/*
+ * Squarespace paints opaque .section-background / .section-border over the
+ * fixed preview. While a preview is showing, punch those through so the
+ * image can sit behind the type (body background still fills the page).
+ */
+body.local-work-preview-showing .page-section .section-background,
+body.local-work-preview-showing .page-section .section-border {
+  background-color: transparent !important;
+  background-image: none !important;
+}
+
+/*
+ * Selected Work links: no underline; hovered link goes soft grey.
+ */
+body.local-work-preview-enabled .page-section:first-of-type .sqs-html-content h2 {
+  line-height: 1.35 !important;
+}
+
+body.local-work-preview-enabled .page-section:first-of-type .sqs-html-content a {
+  text-decoration: none !important;
+  background-image: none !important;
+  transition: color 220ms ease;
+}
+
+body.local-work-preview-showing .page-section:first-of-type .sqs-html-content a.local-work-preview-active {
+  color: #b5b1a9 !important;
+}
+
+@media (hover: none), (pointer: coarse) {
+  .local-work-preview {
+    display: none;
+  }
+
+  body.local-work-preview-showing .page-section:first-of-type .sqs-html-content a.local-work-preview-active {
+    color: inherit !important;
+  }
+}

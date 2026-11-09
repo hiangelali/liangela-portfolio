@@ -1,0 +1,101 @@
+/**
+ * Homepage / Work index: pin header + footer, center Selected Work,
+ * disable page scroll so hover previews don't slide under moving type.
+ */
+html.local-home-lock,
+html.local-home-lock body {
+  height: 100% !important;
+  overflow: hidden !important;
+}
+
+html.local-home-lock #header {
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  width: 100% !important;
+  z-index: 3 !important;
+}
+
+html.local-home-lock #page {
+  box-sizing: border-box !important;
+  height: 100vh !important;
+  max-height: 100vh !important;
+  padding-top: var(--local-header-h, 5.5rem) !important;
+  padding-bottom: var(--local-footer-h, 5.5rem) !important;
+  overflow: hidden !important;
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+/* Stretch Squarespace wrappers so the middle section can truly fill header→footer */
+html.local-home-lock #page #page-regions,
+html.local-home-lock #page .region {
+  flex: 1 1 auto !important;
+  min-height: 0 !important;
+  height: 100% !important;
+  width: 100% !important;
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+/* Main Selected Work section fills the middle and centers its content */
+html.local-home-lock #page .page-section:first-of-type {
+  flex: 1 1 auto !important;
+  min-height: 0 !important;
+  height: auto !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+html.local-home-lock #page .page-section:first-of-type .content-wrapper,
+html.local-home-lock #page .page-section:first-of-type .content {
+  width: 100%;
+  height: 100% !important;
+  min-height: 0 !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: stretch !important;
+  justify-content: center !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  box-sizing: border-box !important;
+}
+
+/* Footer / LinkedIn section pinned to bottom */
+html.local-home-lock #page .page-section:last-of-type {
+  position: fixed !important;
+  left: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  top: auto !important;
+  width: 100% !important;
+  z-index: 3 !important;
+  flex: 0 0 auto !important;
+  height: auto !important;
+  min-height: 0 !important;
+}
+
+@media (max-width: 767px) {
+  html.local-home-lock,
+  html.local-home-lock body {
+    overflow: auto !important;
+    height: auto !important;
+  }
+
+  html.local-home-lock #header,
+  html.local-home-lock #page .page-section:last-of-type {
+    position: relative !important;
+  }
+
+  html.local-home-lock #page {
+    height: auto !important;
+    max-height: none !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    display: block !important;
+  }
+}
