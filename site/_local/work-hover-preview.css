@@ -56,6 +56,16 @@ body.local-work-preview-enabled .page-section:first-of-type .sqs-html-content h2
   line-height: 1.35 !important;
 }
 
+.page-section .local-work-sep {
+  display: inline-block;
+  font-style: italic;
+  font-weight: 200;
+  transform: scaleX(0.55) scaleY(1.35) skewX(-12deg);
+  transform-origin: center;
+  opacity: 0.72;
+  padding: 0 0.08em;
+}
+
 body.local-work-preview-enabled .page-section:first-of-type .sqs-html-content a {
   text-decoration: none !important;
   background-image: none !important;
