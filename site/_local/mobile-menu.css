@@ -1,0 +1,13 @@
+/* Match hamburger overlay to the site cream background */
+.header-menu-bg,
+.header-menu-bg.theme-bg--primary {
+  background-color: var(--siteBackgroundColor, #f2efe0) !important;
+  background-image: none !important;
+}
+
+/* Same display face as homepage Selected Work titles */
+.header-menu-nav-item,
+.header-menu-nav-item a,
+.header-menu-nav-item .header-menu-nav-item-content {
+  font-family: "Canela Thin", "Canela", serif !important;
+}
