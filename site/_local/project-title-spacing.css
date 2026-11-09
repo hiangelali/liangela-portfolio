@@ -1,0 +1,60 @@
+/* Tighten space between project title and news/description.
+   Matches Ramp Policy Agents: spacer collapsed to 32px. */
+#block-424a8fc5ca5019ca72b2,          /* Ramp Policy Agents */
+#block-c73105b3549e5e764a72,          /* Ramp Travel */
+#block-43e7545b8733c3ae75c2,          /* Dropbox Dash AI */
+#block-bdcdc49ad4223f2ac1a4,          /* Dropbox Sign */
+#block-b921a73dd2d6f8f2684a,          /* Airbnb Co-Hosting */
+#block-ddf091b24e960d6b19c9,          /* Clearer Fees */
+#block-yui_3_17_2_1_1589742810656_20771, /* One Day's Wages */
+#block-yui_3_17_2_1_1590465373299_6728,  /* New Facebook */
+#block-yui_3_17_2_1_1590470946954_6750,  /* Story Highlights */
+#block-1d93ec09a78b735ecb49           /* Marketplace Internationalization */
+{
+  height: 32px !important;
+  min-height: 0 !important;
+  max-height: 32px !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  margin: 0 !important;
+  aspect-ratio: auto !important;
+}
+
+#block-424a8fc5ca5019ca72b2 .sqs-block-content,
+#block-c73105b3549e5e764a72 .sqs-block-content,
+#block-43e7545b8733c3ae75c2 .sqs-block-content,
+#block-bdcdc49ad4223f2ac1a4 .sqs-block-content,
+#block-b921a73dd2d6f8f2684a .sqs-block-content,
+#block-ddf091b24e960d6b19c9 .sqs-block-content,
+#block-yui_3_17_2_1_1589742810656_20771 .sqs-block-content,
+#block-yui_3_17_2_1_1590465373299_6728 .sqs-block-content,
+#block-yui_3_17_2_1_1590470946954_6750 .sqs-block-content,
+#block-1d93ec09a78b735ecb49 .sqs-block-content {
+  height: 32px !important;
+  min-height: 0 !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+#block-424a8fc5ca5019ca72b2 .sqs-block-content::before,
+#block-424a8fc5ca5019ca72b2 .sqs-block-content::after,
+#block-c73105b3549e5e764a72 .sqs-block-content::before,
+#block-c73105b3549e5e764a72 .sqs-block-content::after,
+#block-43e7545b8733c3ae75c2 .sqs-block-content::before,
+#block-43e7545b8733c3ae75c2 .sqs-block-content::after,
+#block-bdcdc49ad4223f2ac1a4 .sqs-block-content::before,
+#block-bdcdc49ad4223f2ac1a4 .sqs-block-content::after,
+#block-b921a73dd2d6f8f2684a .sqs-block-content::before,
+#block-b921a73dd2d6f8f2684a .sqs-block-content::after,
+#block-ddf091b24e960d6b19c9 .sqs-block-content::before,
+#block-ddf091b24e960d6b19c9 .sqs-block-content::after,
+#block-yui_3_17_2_1_1589742810656_20771 .sqs-block-content::before,
+#block-yui_3_17_2_1_1589742810656_20771 .sqs-block-content::after,
+#block-yui_3_17_2_1_1590465373299_6728 .sqs-block-content::before,
+#block-yui_3_17_2_1_1590465373299_6728 .sqs-block-content::after,
+#block-yui_3_17_2_1_1590470946954_6750 .sqs-block-content::before,
+#block-yui_3_17_2_1_1590470946954_6750 .sqs-block-content::after,
+#block-1d93ec09a78b735ecb49 .sqs-block-content::before,
+#block-1d93ec09a78b735ecb49 .sqs-block-content::after {
+  display: none !important;
+}
