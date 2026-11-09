@@ -1,0 +1,16 @@
+/**
+ * Hold body text hidden until reveal-text-on-load.js triggers
+ * Squarespace's own fade/slide classes all at once.
+ * Do not override transform — paragraphs fade only; headings slide.
+ */
+html.local-text-reveal-pending .sqs-html-content h1,
+html.local-text-reveal-pending .sqs-html-content h2,
+html.local-text-reveal-pending .sqs-html-content h3,
+html.local-text-reveal-pending .sqs-html-content h4,
+html.local-text-reveal-pending .sqs-html-content p,
+html.local-text-reveal-pending .sqs-html-content li,
+html.local-text-reveal-pending .sqs-html-content pre,
+html.local-text-reveal-pending .sqs-html-content blockquote {
+  opacity: 0 !important;
+  transition: none !important;
+}
