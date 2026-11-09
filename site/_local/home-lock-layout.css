@@ -51,18 +51,51 @@ html.local-home-lock #page .page-section:first-of-type {
   padding-bottom: 0 !important;
 }
 
-html.local-home-lock #page .page-section:first-of-type .content-wrapper,
-html.local-home-lock #page .page-section:first-of-type .content {
-  width: 100%;
+html.local-home-lock #page .page-section:first-of-type .content-wrapper {
+  width: 100% !important;
+  max-width: none !important;
   height: 100% !important;
   min-height: 0 !important;
   display: flex !important;
   flex-direction: column !important;
   align-items: stretch !important;
   justify-content: center !important;
+  /* Track live ANGELA / header-inner edges (set by home-lock-layout.js) */
+  margin: 0 !important;
   padding-top: 0 !important;
   padding-bottom: 0 !important;
+  padding-left: var(--local-edge-left, 4vw) !important;
+  padding-right: var(--local-edge-right, 4vw) !important;
   box-sizing: border-box !important;
+}
+
+html.local-home-lock #page .page-section:first-of-type .content {
+  width: 100% !important;
+  max-width: none !important;
+  height: 100% !important;
+  min-height: 0 !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: stretch !important;
+  justify-content: center !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  box-sizing: border-box !important;
+}
+
+html.local-home-lock #page .page-section:first-of-type .sqs-layout,
+html.local-home-lock #page .page-section:first-of-type .sqs-row,
+html.local-home-lock #page .page-section:first-of-type .sqs-col,
+html.local-home-lock #page .page-section:first-of-type .sqs-block,
+html.local-home-lock #page .page-section:first-of-type .sqs-block-content,
+html.local-home-lock #page .page-section:first-of-type .sqs-text-block-container,
+html.local-home-lock #page .page-section:first-of-type .sqs-html-content {
+  width: 100% !important;
+  max-width: none !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
 }
 
 /* Footer / LinkedIn section pinned to bottom */

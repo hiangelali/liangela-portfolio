@@ -48,6 +48,7 @@
     var content = pair.content;
     var nav = pair.nav;
     content.classList.add('local-project-media-end');
+    nav.classList.add('local-project-nav');
 
     var wrap = content.querySelector(':scope > .content-wrapper');
 

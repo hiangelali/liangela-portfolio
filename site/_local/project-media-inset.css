@@ -1,0 +1,55 @@
+/**
+ * On mobile only: inset project images / video to the same edges as body text.
+ * Desktop keeps the original larger media width (per-page fluid-engine rules).
+ * Width/left come from project-media-inset.js (--local-text-*).
+ */
+@media (max-width: 767px) {
+  html.local-media-inset #page .fluid-engine > .fe-block,
+  html.local-media-inset #page .page-section.full-bleed-section .fe-block,
+  html.local-media-inset #page .local-fb-locked-media-section .local-fb-media-item,
+  html.local-media-inset #page .local-fb-locked-media-section .sqs-block-image,
+  html.local-media-inset #page .local-fb-locked-media-section .sqs-block-video,
+  html.local-media-inset #page .page-section.full-bleed-section .sqs-block-image,
+  html.local-media-inset #page .page-section.full-bleed-section .sqs-block-video,
+  html.local-media-inset #page .page-section.full-bleed-section .embed-block-wrapper {
+    width: var(--local-text-width) !important;
+    max-width: var(--local-text-width) !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    box-sizing: border-box !important;
+    left: auto !important;
+    right: auto !important;
+  }
+
+  html.local-media-inset #page .fluid-engine > .fe-block .sqs-block,
+  html.local-media-inset #page .fluid-engine > .fe-block .sqs-block-content,
+  html.local-media-inset #page .fluid-engine > .fe-block .fluid-image-component-root,
+  html.local-media-inset #page .fluid-engine > .fe-block .fluid-image-animation-wrapper,
+  html.local-media-inset #page .fluid-engine > .fe-block .fluid-image-container,
+  html.local-media-inset #page .fluid-engine > .fe-block .sqs-image-content,
+  html.local-media-inset #page .fluid-engine > .fe-block .embed-block-wrapper,
+  html.local-media-inset #page .fluid-engine > .fe-block video,
+  html.local-media-inset #page .fluid-engine > .fe-block img,
+  html.local-media-inset #page .page-section.full-bleed-section .embed-block-wrapper video,
+  html.local-media-inset #page .page-section.full-bleed-section .sqs-block-image img {
+    width: 100% !important;
+    max-width: 100% !important;
+    left: auto !important;
+    right: auto !important;
+    inset: auto !important;
+    box-sizing: border-box !important;
+  }
+
+  html.local-media-inset #page .page-section.full-bleed-section > .content-wrapper,
+  html.local-media-inset #page .local-fb-locked-media-section > .content-wrapper {
+    padding-left: var(--local-text-left, 4vw) !important;
+    padding-right: var(--local-text-left, 4vw) !important;
+    box-sizing: border-box !important;
+  }
+
+  html.local-media-inset #page .page-section.full-bleed-section .fluid-engine > .fe-block,
+  html.local-media-inset #page .local-fb-locked-media-section .fluid-engine > .fe-block {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+}

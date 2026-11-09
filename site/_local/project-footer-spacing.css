@@ -1,2 +1,102 @@
-/* Class marker only — spacing is applied by project-footer-spacing.js
-   to match Ramp Travel (section-height--small → 3.3vmax). */
+/* Prev / next project nav: keep both links on one row on mobile
+   (Squarespace stacks .sqs-col-6 full-width below 768px), aligned
+   to the same left/right edges as the body text above.
+
+   Covers three Squarespace layouts:
+   1) nested .col-12 > .row > .col-6 + .col-6  (e.g. Ramp Travel)
+   2) direct   .layout > .row > .col-6 + .col-6 (e.g. Dropbox Sign)
+   3) floated blocks inside .col-12             (e.g. Story Highlights)
+*/
+@media (max-width: 767px) {
+  /* Kill Squarespace column gutters that push past the text inset */
+  .local-project-nav .sqs-row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+
+  /* Clearfix pseudos become flex items and inset both links */
+  .local-project-nav .sqs-row::before,
+  .local-project-nav .sqs-row::after {
+    content: none !important;
+    display: none !important;
+  }
+
+  /* Layouts 1 + 2: any row that holds the two half-columns */
+  .local-project-nav .sqs-layout > .sqs-row,
+  .local-project-nav .sqs-col-12 > .sqs-row,
+  .local-project-nav .col.span-12 > .sqs-row {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: flex-start !important;
+    justify-content: space-between !important;
+    gap: 0.75rem;
+    width: 100% !important;
+  }
+
+  .local-project-nav .sqs-layout > .sqs-row > .sqs-col-6,
+  .local-project-nav .sqs-col-12 > .sqs-row > .sqs-col-6,
+  .local-project-nav .col.span-12 > .sqs-row > .sqs-col-6 {
+    float: none !important;
+    clear: none !important;
+    flex: 1 1 0 !important;
+    min-width: 0 !important;
+    width: auto !important;
+    max-width: none !important;
+    box-sizing: border-box !important;
+  }
+
+  .local-project-nav .sqs-layout > .sqs-row > .sqs-col-6:last-child,
+  .local-project-nav .sqs-col-12 > .sqs-row > .sqs-col-6:last-child,
+  .local-project-nav .col.span-12 > .sqs-row > .sqs-col-6:last-child {
+    text-align: right;
+  }
+
+  /* Layout 3: floated html blocks sharing one full-width column */
+  .local-project-nav .sqs-col-12,
+  .local-project-nav .col.span-12 {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: flex-start !important;
+    justify-content: space-between !important;
+    gap: 0.75rem;
+    width: 100% !important;
+  }
+
+  .local-project-nav .sqs-col-12 > .sqs-block,
+  .local-project-nav .col.span-12 > .sqs-block {
+    float: none !important;
+    clear: none !important;
+    flex: 1 1 0 !important;
+    min-width: 0 !important;
+    width: auto !important;
+    max-width: none !important;
+  }
+
+  /* Desktop used float-right for the "next" block which often precedes
+     "prev" in the DOM — restore left=prev / right=next order. */
+  .local-project-nav .sqs-col-12 > .sqs-block.float-right,
+  .local-project-nav .col.span-12 > .sqs-block.float-right {
+    order: 2;
+    text-align: right;
+  }
+
+  .local-project-nav .sqs-col-12 > .sqs-block:not(.float-right),
+  .local-project-nav .col.span-12 > .sqs-block:not(.float-right) {
+    order: 1;
+  }
+
+  /* Always show both prev + next (site custom.css used to hide prev ≤480px) */
+  .local-project-nav .sqs-block {
+    display: block !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    box-sizing: border-box !important;
+  }
+
+  .local-project-nav .sqs-block,
+  .local-project-nav .sqs-block-content,
+  .local-project-nav .sqs-html-content {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+}
